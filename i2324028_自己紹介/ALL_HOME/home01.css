@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+:root {
+  --dark-color: #000;
+  --white-color: rgb(245, 245, 245);
+}
+
+.dark-mode {
+  color: var(--white-color) !important;
+  background: var(--dark-color) !important;
+}
+
+.light-mode {
+  color: var(--dark-color) !important;
+  background: var(--white-color) !important;
+}
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--white-color);
+  color: var(--dark-color);
+  transition: all 0.2s ease-in-out;
+}
+
+main {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 80px;
+  line-height: 50px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.header {
+  margin: auto;
+  width: 80%;
+  height: 10vh;
+  padding: 0.5rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#icon {
+  width: 28px;
+  cursor: pointer;
+}
+
+#Landscape1{
+  cursor:pointer;
+}
+
+#logo-title2 h2 {
+  float:left;
+  font-size: 700;
+}
+
+main h1 {
+  font-size: 5rem;
+}
+
+main h1 span {
+  color: rgb(194, 103, 50);
+}
+
+
+
+
+
+
+
+
+
+
+#menu li{
+  width: 180px;
+  float: left;
+  color:#000000;
+}
+
+#menu li a{
+  color:#391111;
+  font-size:110%;
+  text-decoration:none;
+  background-color: #b1b1b1;
+  display:block;
+}
+
+#menu li a:hover{
+  cursor: pointer;
+  font-size:150%;
+  color:#ffffff;
+  background-color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+.menu-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  height: 60px;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  z-index: 90;
+  background-color: #000000;
+  cursor: pointer;
+}
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 25px;
+  border-radius: 3px;
+  background-color: rgb(241, 241, 241);
+  position: absolute;
+}
+.menu-btn span:before {
+  bottom: 8px;
+}
+.menu-btn span:after {
+  top: 8px;
+}
+
+
+#menu-btn-check:checked ~ .menu-btn span {
+  background-color: rgba(255, 255, 255, 0);
+  transition: all 0.25s ease-in-out;
+}
+#menu-btn-check:checked ~ .menu-btn span::before {
+  bottom: 0;
+  transform: rotate(45deg);
+  transition: all 0.2s ease-in-out;
+}
+#menu-btn-check:checked ~ .menu-btn span::after {
+  top: 0;
+  transform: rotate(-45deg);
+  transition: all 0.2s ease-in-out;
+}
+
+
+#menu-btn-check {
+  display: none;
+}
+
+
+.menu-content {
+  width: 100%;
+  height: 42px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 80;
+  background-color: #c9c9c9;
+  text-align: center;
+}
+
+.menu-content li a:hover{
+  color:#000000;
+  background-color: #ffffff;
+  height: 42px;
+  font-size:105%;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-content ul {
+  padding: 70px 10px 0;
+}
+
+.menu-content ul li {
+  border-bottom: solid 1px #ffffff;
+  list-style: none;
+}
+
+.menu-content ul li a {
+  display: block;
+  width: 100%;
+  font-size: 15px;
+  box-sizing: border-box;
+  color:#ffffff;
+  text-decoration: none;
+  padding: 9px 15px 10px 0;
+  position: relative;
+}
+
+.menu-content ul li a::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-top: solid 2px #ffffff;
+  border-right: solid 2px #ffffff;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 11px;
+  top: 16px;
+}
+
+
+.menu-content {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 100%;
+  z-index: 80;
+  background-color: #1a2029cc;
+  transition: all 0.4s ease-in-out;
+}
+
+
+#menu-btn-check:checked ~ .menu-content {
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+#wrap{
+  font-family: "Poppins", sans-serif;
+  margin:auto;
+  width: 900px;
+  background-color: #00000000;
+  animation: 2s ease-in-out;
+}
+
+#top{
+  color: #000000;
+  margin:auto;
+  width: 900px;
+  height: 30px;
+  background-color: #dafff100;
+  font-family: "Poppins", sans-serif;
+}
+
+#middle{
+  color: #000000;
+  width: 900px;
+  background: var(--white-color);
+  font-size: 50;
+}
+
+
+#bottom{
+  color: #000000;
+  width: 900px;
+  height: 150px;
+  background-color: #cecece00;
+  font-family: "Poppins", sans-serif;
+  clear: both;
+}
