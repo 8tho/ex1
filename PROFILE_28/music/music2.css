@@ -246,9 +246,6 @@ main h1 span {
 
 
 
-
-
-
 #parag1 {
   width: 1124px;
   height:2955px;
@@ -265,4 +262,11 @@ main h1 span {
   height:1125px;
   width: 1124px;
   background-image: linear-gradient(-180deg, rgba(75, 167, 140, 0.477), rgba(255, 255, 255, 0.405));
+}
+
+
+
+
+#middle{
+  margin: 0 auto;
 }
