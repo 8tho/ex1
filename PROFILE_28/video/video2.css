@@ -232,7 +232,7 @@ main h1 span {
 
 .menu-content {
   width: 100%;
-  height: 50px;
+  height: 100%;
   position: fixed;
   top: 0;
   left: 100%;
