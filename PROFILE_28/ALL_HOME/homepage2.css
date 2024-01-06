@@ -208,7 +208,6 @@ main h1 span {
   background-image: linear-gradient(180deg, #1a2029, rgba(0, 0, 0, 0.5));
   transition: all 0.5s cubic-bezier(.03,.51,.48,.98);
 }
-}
 
 .menu-content li a:hover{
   line-height: 30px;
