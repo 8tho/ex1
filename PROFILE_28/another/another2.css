@@ -193,7 +193,6 @@ main h1 span {
   top: 0;
   left: 100%;
   z-index: 80;
-  font-size: 100px;
   text-align: center;
   background-color: #1a2029cc;
   background-image: linear-gradient(180deg, #1a2029, #00000080);
