@@ -254,5 +254,6 @@ main h1 span {
 
 
 #middle{
+  width: 1000px;
   margin: 0 auto;
 }
