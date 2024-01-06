@@ -149,10 +149,10 @@ main h1 span {
   position: absolute;
 }
 .menu-btn span:before {
-  bottom: 9px;
+  bottom: 8px;
 }
 .menu-btn span:after {
-  top: 9px;
+  top: 8px;
 }
 
 
