@@ -210,11 +210,11 @@ main h1 span {
 }
 
 .menu-content li a:hover{
-  line-height: 30px;
+  font-weight: bold;
+  font-size: 10%;
+  height: 100%;
   color:#000000;
   background-color: #ffffff;
-  height: 60px;
-  font-size:108%;
   transition: all 0.2s ease-in-out;
 }
 
