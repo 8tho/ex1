@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>自己紹介4</title>
+    <link rel="stylesheet" href="./another2.css" />
+  </head>
+<body>
+  <section class="header">
+    <div class="logo-title1">
+      <a href="../ALL_HOME/home1.html">
+        <img src="../images/2324028_icon.png" height="75px" width="75px" onmouseover="this.src='../images/2324028_icon2.png'" onmouseout="this.src='../images/2324028_icon.png'" id="Landscape1">
+      </a>
+    </div>
+
+    <div class="logo-title2">
+      <h2>その他</h2>
+    </div>
+    
+    <img src="../images/moon.png" id="icon" />
+  </section>
+
+    <main>
+      <ul>
+       
+        <h3>＜作業環境＞</h3>
+        <li>スマホ</li>
+        Black Shark 4
+        <li>PC</li>
+        Core i7-12700F<br>
+        GPU:RTX 4070 Ti<br>
+        マザーボード:ASRock H670 PG Riptide<br>
+        メモリ:32GB<br>
+        SSD:1TB M.2 NVMe<br>
+        <li>モニター</li>
+        24E1N5500E/11 23.8 WQHD
+        <li>キーボード</li>
+        Logicool K295
+        <li>マウス</li>
+        Logicool ERGO M575
+        <li>PCスピーカー</li>
+        Creative Pebble V2
+        <br><br>
+
+        <h3>＜ソフト,アプリ＞<font size=2px>　2019-2022</font></h3>
+        Avee player<br>
+        Alight Motion<br>
+        KineMaster<br>
+        Prisma3D<br>
+        Blender<br>
+        AviUtl<br>
+        MMD.exe(MME,Ray-MMD)
+        <br>
+        <br>
+      </ul>
+    </main>
+
+
+
+
+    <header>
+      <div class="hamburger-menu">
+          <input type="checkbox" id="menu-btn-check">
+          <label for="menu-btn-check" class="menu-btn"><span></span></label>
+          <div class="menu-content">
+            <ul>
+              <li><a href="../ALL_HOME/home1.html">ホーム</a></li>
+              <li><a href="../music/music.html">音楽</a></li>
+              <li><a href="../video/video.html">動画</a></li>
+              <li><a href="../another/another.html">その他</a></li>
+            </ul>
+          </div>
+      </div>
+    </header>
+
+
+
+
+
+  <div id="wrap">
+  
+  <ul id="menu">
+  
+  
+  
+  <div id="middle">
+    
+      </div>
+      
+  </div>
+  
+  <div id="bottom">
+      
+      
+  </div>
+
+
+
+
+
+
+
+
+    <script>
+      var icon = document.querySelector("#icon");
+
+      icon.onclick = () => {
+        document.body.classList.toggle("dark-mode");
+        if (document.body.classList.contains("dark-mode")) {
+          icon.src = "../images/sun.png";
+        } else {
+          icon.src = "../images/moon.png";
+        }
+      };
+    </script>
+</body>
+</html>
