@@ -178,7 +178,7 @@ main h1 span {
 
 .menu-content {
   width: 100%;
-  height: 100%;
+  height: 60px;
   position: fixed;
   top: 0;
   left: 0;
@@ -190,7 +190,7 @@ main h1 span {
 .menu-content li a:hover{
   color:#000000;
   background-color: #ffffff;
-  height: 42px;
+  height: 60px;
   font-size:105%;
   transition: all 0.2s ease-in-out;
 }
