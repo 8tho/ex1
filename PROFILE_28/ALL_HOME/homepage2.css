@@ -152,7 +152,7 @@ main h1 span {
   display: block;
   height: 3px;
   width: 25px;
-  border-radius: 3px;
+  border-radius: 2px;
   background-color: rgb(241, 241, 241);
   position: absolute;
 }
@@ -171,12 +171,12 @@ main h1 span {
 #menu-btn-check:checked ~ .menu-btn span::before {
   bottom: 0;
   transform: rotate(45deg);
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 #menu-btn-check:checked ~ .menu-btn span::after {
   top: 0;
   transform: rotate(-45deg);
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 
@@ -231,6 +231,7 @@ main h1 span {
   border-top: solid 2px #ffffff;
   border-right: solid 2px #ffffff;
   transform: rotate(45deg);
+  transition: all 0.2s ease-in-out
   position: absolute;
   right: 11px;
   top: 16px;
