@@ -27,7 +27,7 @@ main {
   font-family: "Poppins", sans-serif;
   position: absolute;
   margin-top: 20px;
-  margin: 0 22%;
+  margin: 0 center;
   line-height: 4;
   width: 100%;
   height: 1100px;
