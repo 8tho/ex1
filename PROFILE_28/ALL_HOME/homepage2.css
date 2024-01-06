@@ -188,24 +188,18 @@ main h1 span {
 
 
 .menu-content {
-  width: 100%;
-  height: 60px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 80;
-  background-color: #c9c9c9;
-  text-align: center;
-  line-height: 30px;
+  line-height: 100px;
   width: 100%;
   height: 100%;
   position: fixed;
   top: 0;
   left: 100%;
   z-index: 80;
+  text-align: center;
   background-color: #1a2029cc;
-  background-image: linear-gradient(180deg, #1a2029, rgba(0, 0, 0, 0.259));
+  background-image: linear-gradient(180deg, #1a2029, rgba(0, 0, 0, 0.5));
   transition: all 0.5s cubic-bezier(.03,.51,.48,.98);
+}
 }
 
 .menu-content li a:hover{
