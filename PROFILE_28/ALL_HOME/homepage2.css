@@ -89,6 +89,14 @@ main h1 span {
   transform: rotate(-1deg);
 }
 
+#imag3 hover {
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 50px;
+  transform: rotate(-1deg);
+}
+
+
 #right{
   width: 600px;
   height: 1050px;
@@ -216,7 +224,7 @@ main h1 span {
 }
 
 .menu-content ul li {
-  border-bottom: solid 0.02em #ffffff;
+  border-bottom: solid 0.02em #ffffff78;
   list-style: none;
 }
 
