@@ -262,3 +262,7 @@ main h1 span {
   float: left;
   background-image: linear-gradient(142deg, rgba(255, 229, 174, 0.542), rgba(255, 255, 255, 0.1));
 }
+
+#middle{
+  margin: 0 auto;
+}
