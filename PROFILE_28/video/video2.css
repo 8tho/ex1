@@ -178,24 +178,33 @@ main h1 span {
 }
 
 
+
+
+
+
+
+
 .menu-content {
+  line-height: 95px;
   width: 100%;
   height: 100%;
   position: fixed;
   top: 0;
-  left: 0;
+  left: 100%;
   z-index: 80;
-  background-color: #c9c9c9;
+  font-size: 100px;
   text-align: center;
+  background-color: #1a2029cc;
+  background-image: linear-gradient(180deg, #1a2029, #00000080);
+  transition: all 0.5s cubic-bezier(.03,.51,.48,.98);
 }
 
 .menu-content li a:hover{
+  font-weight: 600;
+  font-size: 17%;
   color:#000000;
   background-color: #ffffff;
-  height: 42px;
-  font-size:105%;
   transition: all 0.2s ease-in-out;
-}
 
 .menu-content ul {
   padding: 70px 10px 0;
@@ -228,20 +237,6 @@ main h1 span {
   right: 11px;
   top: 16px;
 }
-
-
-.menu-content {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 100%;
-  z-index: 80;
-  background-color: #1a2029cc;
-  background-image: linear-gradient(180deg, #1a2029, rgba(0, 0, 0, 0.259));
-  transition: all 0.5s cubic-bezier(.03,.51,.48,.98);
-}
-
 
 #menu-btn-check:checked ~ .menu-content {
     left: 0;
