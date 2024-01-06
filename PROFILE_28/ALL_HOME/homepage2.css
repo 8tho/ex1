@@ -170,13 +170,13 @@ main h1 span {
 }
 #menu-btn-check:checked ~ .menu-btn span::before {
   bottom: 0;
-  transform: rotate(45deg);
-  transition: all 0.3s ease-in-out;
+  transform: rotate(135deg);
+  transition: all 0.3s cubic-bezier(.03,.51,.48,.98);
 }
 #menu-btn-check:checked ~ .menu-btn span::after {
   top: 0;
-  transform: rotate(-45deg);
-  transition: all 0.3s ease-in-out;
+  transform: rotate(-135deg);
+  transition: all 0.3s cubic-bezier(.03,.51,.48,.98);
 }
 
 
@@ -230,8 +230,8 @@ main h1 span {
   height: 7px;
   border-top: solid 2px #ffffff;
   border-right: solid 2px #ffffff;
-  transform: rotate(45deg);
-  transition: all 0.2s ease-in-out
+  transform: rotate(135deg);
+  transition: all 0.3s cubic-bezier(.03,.51,.48,.98);
   position: absolute;
   right: 11px;
   top: 16px;
