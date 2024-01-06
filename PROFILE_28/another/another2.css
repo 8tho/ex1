@@ -162,13 +162,13 @@ main h1 span {
 }
 #menu-btn-check:checked ~ .menu-btn span::before {
   bottom: 0;
-  transform: rotate(45deg);
-  transition: all 0.2s ease-in-out;
+  transform: rotate(135deg);
+  transition: all 0.3s cubic-bezier(.03,.51,.48,.98);
 }
 #menu-btn-check:checked ~ .menu-btn span::after {
   top: 0;
-  transform: rotate(-45deg);
-  transition: all 0.2s ease-in-out;
+  transform: rotate(-135deg);
+  transition: all 0.3s cubic-bezier(.03,.51,.48,.98);
 }
 
 
