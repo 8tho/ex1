@@ -229,9 +229,8 @@ main h1 span {
   width: 7px;
   height: 7px;
   border-top: solid 2px #ffffff;
-  border-right: solid 2px #ffffff;
-  transform: rotate(135deg);
-  transition: all 0.3s cubic-bezier(.03,.51,.48,.98);
+  border-right: solid 3px #ffffff;
+  transform: rotate(45deg);
   position: absolute;
   right: 11px;
   top: 16px;
