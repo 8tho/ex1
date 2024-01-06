@@ -245,7 +245,7 @@ main h1 span {
   left: 100%;
   z-index: 80;
   background-color: #1a2029cc;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.4s cubic-bezier(.03,.51,.48,.98);
 }
 
 
