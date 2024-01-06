@@ -227,7 +227,7 @@ main h1 span {
   box-sizing: border-box;
   color:#ffffff;
   text-decoration: none;
-  padding: 9px 15px 10px 0;
+  padding: auto;
   position: relative;
 }
 
@@ -240,7 +240,7 @@ main h1 span {
   transform: rotate(45deg);
   position: absolute;
   right: 11px;
-  top: 16px;
+  top: 50%;
 }
 
 
