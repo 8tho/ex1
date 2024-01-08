@@ -10,6 +10,7 @@
   background: var(--dark-color) !important;
 }
 
+
 body {
   font-family: "Poppins", sans-serif;
   background: var(--white-color);
@@ -36,18 +37,16 @@ a:hover{
 main {
   font-family: "Poppins", sans-serif;
   position: absolute;
-  font-size: 15px;
+  font-size: 16px;
   margin-top: 15px;
   margin: 0 10%;
   line-height: 40px;
-  width: 100%;
   height: 100vh;
   display: flex;
 }
 
 .header {
   margin: auto;
-  width: 80%;
   height: 10vh;
   padding: 0.5rem 4rem;
   display: flex;
@@ -56,6 +55,7 @@ main {
 }
 
 #icon {
+  margin-right: 10px;
   width: 28px;
   cursor: pointer;
 }
