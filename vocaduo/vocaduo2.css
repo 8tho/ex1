@@ -143,17 +143,17 @@ main h1 span {
 .menu-btn span:after {
   content: '';
   display: block;
-  height: 2.5px;
-  width: 28px;
+  height: 3px;
+  width: 30px;
   border-radius: 0;
   background-color: rgb(241, 241, 241);
   position: absolute;
 }
 .menu-btn span:before {
-  bottom: 12px;
+  bottom: 10.5px;
 }
 .menu-btn span:after {
-  top: 12px;
+  top: 10.5px;
 }
 
 
